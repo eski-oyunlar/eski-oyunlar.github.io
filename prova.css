@@ -1,0 +1,16 @@
+
+.adimlar{margin:14px auto 0;max-width:760px;padding-left:22px;font-size:clamp(16px,2.4vw,19px)}
+.adimlar li{margin:6px 0}
+.kayit{margin:18px 0 6px;background:#FFF3B0;border:4px solid var(--lacivert);border-radius:22px;padding:16px;text-align:center}
+.kayit button,.kayit a.dugme{font:inherit;font-weight:1000;font-size:20px;border:3px solid var(--lacivert);border-radius:99px;padding:10px 22px;
+ margin:6px;cursor:pointer;background:var(--pembe);color:#fff;text-decoration:none;display:inline-block}
+.kayit button.ikinci,.kayit a.dugme{background:var(--mavi)}
+.kayit button[hidden],.kayit a[hidden]{display:none}
+.kayit label{display:block;margin-top:8px;font-size:15px;color:var(--gri)}
+.durum{font-size:18px;margin:6px 0;min-height:1.4em}
+.durum.canli{color:#D62D4F}
+.kayit audio{width:100%;max-width:520px;margin:8px auto;display:block}
+.satirlar{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.satirlar li{background:var(--kagit);border:3px solid var(--cizgi);border-radius:16px;padding:10px 14px;font-size:clamp(17px,2.6vw,21px);cursor:pointer}
+.satirlar li .no{color:var(--gri);font-size:14px;margin-right:8px}
+.satirlar li.simdi{background:#FFF3B0;border-color:var(--lacivert)}
